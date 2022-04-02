@@ -9,6 +9,7 @@ import {
 import Home from '../components/Home';
 import Register from '../components/Register';
 import Login from '../components/Login';
+import Forgot from '../components/Forgot';
 
 export class Header extends Component{
     render(){
@@ -37,6 +38,7 @@ export class Header extends Component{
         <Route exact path="/about" component={Home} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/register" component={Register} />
+        <Route exact path="/forgot" component={Forgot} />
 
         </Switch>
       </div>
